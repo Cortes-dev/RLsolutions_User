@@ -1,0 +1,164 @@
+[
+    {
+        "id": 1,
+        "nombre": "800f-x01",
+        "descripcion": "800FX01 CONTACT BLOCK NO LATCH FRONT MOUNT 22.5 MM 1 NC 10 AMP.",
+        "precio": "$220.00",
+        "imagen": "https://rlsolutions.com.mx/Admin/img/1015485835.jpg",
+        "descuento": "10% OFF",
+        "categoria": "Allen Bradley"
+    },
+    {
+        "id": 2,
+        "nombre": "800f-alm",
+        "descripcion": "El vendedor no incluyó una descripción del producto.",
+        "precio": "$120.00",
+        "imagen": "https://rlsolutions.com.mx/Admin/img/1120253900.jpg",
+        "categoria": "Allen Bradley"
+    },
+    {
+        "id": 3,
+        "nombre": "E32-dc200",
+        "descripcion": "Sensing method Diffuse reflective Shape Threaded Size M6 Application Object detection Temperature range -40-70 °C Sensing distance 900 mm Cable length 2 m Bending radius 25 mm.",
+        "precio": "$850.00",
+        "imagen": "https://rlsolutions.com.mx/Admin/img/871373184.jpg",
+        "categoria": "Omron"
+    },
+    {
+        "id": 4,
+        "nombre": "800fm-kr21",
+        "descripcion": "Número de posiciones del interruptor 2 retorno de primavera Sí Función de conmutación enclavada No Diámetro del agujero 22,5 milímetros Vida de diseño mecánico del operador (ciclos, min.) 1000000 Material del pestillo Metal Posición de extracción de llaves Izquierda Tipo de operador Interruptor selector con llave Compatibilidad del gabinete.",
+        "precio": "$960.00",
+        "imagen": "https://rlsolutions.com.mx/Admin/img/964434185.jpg",
+        "descuento": "5% OFF",
+        "categoria": "Allen Bradley"
+    },
+    {
+        "id": 5,
+        "nombre": "G9SB-3010",
+        "descripcion": "Omron Safety Relay, 24V DC, 3 NO, 1 NC Contacts, Screw Terminal, DIN Rail.",
+        "precio": "$780.00",
+        "imagen": "https://rlsolutions.com.mx/Admin/img/123456789.jpg",
+        "categoria": "Omron"
+    },
+    {
+        "id": 6,
+        "nombre": "22mm Led Pilot Light",
+        "descripcion": "Allen Bradley Red LED Pilot Light, 22 mm, 24V AC/DC.",
+        "precio": "$150.00",
+        "imagen": "https://rlsolutions.com.mx/Admin/img/112233445.jpg",
+        "categoria": "Allen Bradley"
+    },
+    {
+        "id": 7,
+        "nombre": "E3Z-D61",
+        "descripcion": "Omron Photoelectric Sensor, Diffuse Reflective, 10-30VDC, NPN Output.",
+        "precio": "$320.00",
+        "imagen": "https://rlsolutions.com.mx/Admin/img/998877665.jpg",
+        "categoria": "Omron"
+    },
+    {
+        "id": 8,
+        "nombre": "800T-XA",
+        "descripcion": "Allen Bradley Heavy-Duty Push Button, 30.5mm, Momentary, 1 NO 1 NC.",
+        "precio": "$290.00",
+        "imagen": "https://rlsolutions.com.mx/Admin/img/776655443.jpg",
+        "categoria": "Allen Bradley"
+    },
+    {
+        "id": 9,
+        "nombre": "D4SL-N3QFG",
+        "descripcion": "Omron Guard Lock Safety-Door Switch, 24VDC, Metal Case.",
+        "precio": "$670.00",
+        "imagen": "https://rlsolutions.com.mx/Admin/img/556677889.jpg",
+        "categoria": "Omron"
+    },
+    {
+        "id": 10,
+        "nombre": "800H-QR10",
+        "descripcion": "Allen Bradley 30mm Emergency Stop Push Button, Red, Twist-to-Release.",
+        "precio": "$450.00",
+        "imagen": "https://rlsolutions.com.mx/Admin/img/332211009.jpg",
+        "categoria": "Allen Bradley"
+    },
+    {
+        "id": 11,
+        "nombre": "E2E-X5ME1",
+        "descripcion": "Omron Inductive Proximity Sensor, 5mm Sensing Distance, 12-24VDC.",
+        "precio": "$180.00",
+        "imagen": "https://rlsolutions.com.mx/Admin/img/111222333.jpg",
+        "categoria": "Omron"
+    },
+    {
+        "id": 12,
+        "nombre": "800FP-LM",
+        "descripcion": "Allen Bradley Low Profile Pilot Light, 22mm, Green LED, 24V AC/DC.",
+        "precio": "$170.00",
+        "imagen": "https://rlsolutions.com.mx/Admin/img/444555666.jpg",
+        "categoria": "Allen Bradley"
+    },
+    {
+        "id": 13,
+        "nombre": "E5CC-RX2ASM-800",
+        "descripcion": "Omron Digital Temperature Controller, 100-240VAC, Relay Output.",
+        "precio": "$850.00",
+        "imagen": "https://rlsolutions.com.mx/Admin/img/777888999.jpg",
+        "categoria": "Omron"
+    },
+    {
+        "id": 14,
+        "nombre": "800T-H33A",
+        "descripcion": "Allen Bradley Selector Switch, 30mm, 3-Position, Maintained.",
+        "precio": "$370.00",
+        "imagen": "https://rlsolutions.com.mx/Admin/img/222333444.jpg",
+        "categoria": "Allen Bradley"
+    },
+    {
+        "id": 15,
+        "nombre": "E32-T11N",
+        "descripcion": "Omron Fiber Optic Sensor Head, Side Sensing, 2m Cable.",
+        "precio": "$290.00",
+        "imagen": "https://rlsolutions.com.mx/Admin/img/555666777.jpg",
+        "categoria": "Omron"
+    },
+    {
+        "id": 16,
+        "nombre": "800MR-H2B",
+        "descripcion": "Allen Bradley Push Button, 16mm, Momentary, 1 NO 1 NC.",
+        "precio": "$240.00",
+        "imagen": "https://rlsolutions.com.mx/Admin/img/999000111.jpg",
+        "categoria": "Allen Bradley"
+    },
+    {
+        "id": 17,
+        "nombre": "ZX2-LD100",
+        "descripcion": "Omron Laser Displacement Sensor, 100mm Measurement Range.",
+        "precio": "$1,200.00",
+        "imagen": "https://rlsolutions.com.mx/Admin/img/666777888.jpg",
+        "categoria": "Omron"
+    },
+    {
+        "id": 18,
+        "nombre": "800FM-KR23",
+        "descripcion": "Allen Bradley Selector Switch, 22.5mm, Keyed, Spring Return.",
+        "precio": "$350.00",
+        "imagen": "https://rlsolutions.com.mx/Admin/img/333444555.jpg",
+        "categoria": "Allen Bradley"
+    },
+    {
+        "id": 19,
+        "nombre": "D40A-1C5",
+        "descripcion": "Omron Non-Contact Safety Switch, 5m Cable, 24VDC.",
+        "precio": "$500.00",
+        "imagen": "https://rlsolutions.com.mx/Admin/img/888999000.jpg",
+        "categoria": "Omron"
+    },
+    {
+        "id": 20,
+        "nombre": "800T-XD4",
+        "descripcion": "Allen Bradley Mushroom Head Push Button, 30mm, Momentary.",
+        "precio": "$400.00",
+        "imagen": "https://rlsolutions.com.mx/Admin/img/555888999.jpg",
+        "categoria": "Allen Bradley"
+    }
+]
