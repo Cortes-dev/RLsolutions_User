@@ -5,13 +5,26 @@ import { Icon } from "@iconify/react";
 const Products = () => {
   const [filtro, setFiltro] = useState("Todos");
   const [productos, setProductos] = useState([]);
+  const [marcas, setMarcas] = useState([]);
   const [cargando, setCargando] = useState(true);
   const [busqueda, setBusqueda] = useState("");
   const [paginaActual, setPaginaActual] = useState(1);
   const [productosPorPagina] = useState(8);
   const [mostrarSoloDescuentos, setMostrarSoloDescuentos] = useState(false);
 
-  const categorias = ["Todos", "Allen Bradley", "Omron", "Ropa"];
+
+  useEffect(() => {
+    const fetchMarcas = async () => {
+    const response = await fetch("/Datos.json");
+    const data = await response.json();
+    setMarcas(data);
+    };
+    fetchMarcas();
+  }, []);
+
+  const categorias = ["Todos", ...new Set(marcas.map((marca) => marca.categoria))];
+
+
 
   useEffect(() => {
     const cargarDatos = async () => {
@@ -19,6 +32,7 @@ const Products = () => {
         const response = await fetch("/Datos.json");
         const data = await response.json();
         setProductos(data);
+        setMarcas(data);
       } catch (error) {
         console.error("Error al cargar los datos:", error);
       } finally {
