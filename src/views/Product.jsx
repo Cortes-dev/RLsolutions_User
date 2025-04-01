@@ -15,7 +15,7 @@ const Product = () => {
   useEffect(() => {
     const fetchProducto = async () => {
       try {
-        const response = await fetch("/Datos.json");
+        const response = await fetch(`${process.env.PUBLIC_URL}/Datos.json`)
         const data = await response.json();
 
         if (!Array.isArray(data)) {
