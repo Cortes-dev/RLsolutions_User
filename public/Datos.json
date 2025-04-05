@@ -3,7 +3,7 @@
         "id": 1,
         "nombre": "800f-x01",
         "descripcion": "800FX01 CONTACT BLOCK NO LATCH FRONT MOUNT 22.5 MM 1 NC 10 AMP.",
-        "precio": "$220.00",
+        "precio": 22000,
         "imagenes": [
             "https://rlsolutions.com.mx/Admin/img/1120253900.jpg",
             "https://rlsolutions.com.mx/Admin/img/1120253901.jpg",
@@ -18,7 +18,7 @@
         "id": 2,
         "nombre": "1756-L61",
         "descripcion": "ControlLogix5561 Controlador Programable de Automatización.",
-        "precio": "$1,500.00",
+        "precio": 1500.00,
         "imagenes": [
             "https://rlsolutions.com.mx/Admin/img/1756L61_01.jpg",
             "https://rlsolutions.com.mx/Admin/img/1756L61_02.jpg"
@@ -30,422 +30,674 @@
     },
     {
         "id": 3,
-        "nombre": "1769-L32E",
-        "descripcion": "CompactLogix5380 Controlador Programable de Automatización.",
-        "precio": "$1,200.00",
+        "nombre": "Sensor de Proximidad",
+        "descripcion": "Sensor de proximidad inductivo para detección de metales.",
+        "precio": 500,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1769L32E_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1769L32E_02.jpg"
+            "https://example.com/sensor1.jpg",
+            "https://example.com/sensor2.jpg"
         ],
-        "descuento": "7% OFF",
-        "categoria": "Allen Bradley",
-        "calificacion": 4.6,
-        "stock": 25
+        "descuento": "",
+        "categoria": "Sensores",
+        "calificacion": 4.2,
+        "stock": 100
     },
     {
         "id": 4,
-        "nombre": "1769-L18ER",
-        "descripcion": "CompactLogix5370 Controlador Programable de Automatización.",
-        "precio": "$900.00",
+        "nombre": "Actuador Lineal",
+        "descripcion": "Actuador lineal eléctrico con carrera de 500 mm.",
+        "precio": 1200,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1769L18ER_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1769L18ER_02.jpg"
+            "https://example.com/actuador1.jpg",
+            "https://example.com/actuador2.jpg"
         ],
-        "descuento": "10% OFF",
-        "categoria": "Allen Bradley",
+        "descuento": "15% OFF",
+        "categoria": "Actuadores",
         "calificacion": 4.7,
         "stock": 30
     },
     {
         "id": 5,
-        "nombre": "1756-L71",
-        "descripcion": "ControlLogix5571 Controlador Programable de Automatización.",
-        "precio": "$1,800.00",
+        "nombre": "PLC Siemens S7-1200",
+        "descripcion": "Controlador lógico programable Siemens S7-1200.",
+        "precio": 2500,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1756L71_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1756L71_02.jpg"
+            "https://example.com/plc1.jpg",
+            "https://example.com/plc2.jpg"
         ],
-        "descuento": "5% OFF",
-        "categoria": "Allen Bradley",
-        "calificacion": 4.9,
-        "stock": 15
+        "descuento": "",
+        "categoria": "PLC",
+        "calificacion": 4.8,
+        "stock": 25
     },
     {
         "id": 6,
-        "nombre": "1756-L83E",
-        "descripcion": "ControlLogix5583 Controlador Programable de Automatización.",
-        "precio": "$2,000.00",
+        "nombre": "Robot Colaborativo",
+        "descripcion": "Robot colaborativo para trabajar junto a operarios humanos.",
+        "precio": 15000,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1756L83E_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1756L83E_02.jpg"
+            "https://example.com/robot1.jpg",
+            "https://example.com/robot2.jpg"
         ],
-        "descuento": "8% OFF",
-        "categoria": "Allen Bradley",
-        "calificacion": 4.8,
-        "stock": 20
+        "descuento": "20% OFF",
+        "categoria": "Robótica",
+        "calificacion": 4.9,
+        "stock": 10
     },
     {
         "id": 7,
-        "nombre": "1756-L63",
-        "descripcion": "ControlLogix5563 Controlador Programable de Automatización.",
-        "precio": "$1,600.00",
+        "nombre": "Variador de Frecuencia",
+        "descripcion": "Variador de frecuencia para control de motores eléctricos.",
+        "precio": 800,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1756L63_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1756L63_02.jpg"
+            "https://example.com/variador1.jpg",
+            "https://example.com/variador2.jpg"
         ],
-        "descuento": "6% OFF",
-        "categoria": "Allen Bradley",
-        "calificacion": 4.7,
-        "stock": 25
+        "descuento": "",
+        "categoria": "Variadores",
+        "calificacion": 4.5,
+        "stock": 40
     },
     {
         "id": 8,
-        "nombre": "1769-L30ERM",
-        "descripcion": "CompactLogix5370 Controlador Programable de Automatización.",
-        "precio": "$1,100.00",
+        "nombre": "HMI Touchscreen",
+        "descripcion": "Interfaz hombre-máquina con pantalla táctil de 7 pulgadas.",
+        "precio": 600,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1769L30ERM_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1769L30ERM_02.jpg"
+            "https://example.com/hmi1.jpg",
+            "https://example.com/hmi2.jpg"
         ],
-        "descuento": "9% OFF",
-        "categoria": "Allen Bradley",
+        "descuento": "10% OFF",
+        "categoria": "HMI",
         "calificacion": 4.6,
-        "stock": 30
+        "stock": 35
     },
     {
         "id": 9,
-        "nombre": "1756-L72",
-        "descripcion": "ControlLogix5572 Controlador Programable de Automatización.",
-        "precio": "$1,900.00",
+        "nombre": "Cámara de Visión Artificial",
+        "descripcion": "Cámara para inspección de calidad en líneas de producción.",
+        "precio": 1800,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1756L72_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1756L72_02.jpg"
+            "https://example.com/camara1.jpg",
+            "https://example.com/camara2.jpg"
         ],
-        "descuento": "7% OFF",
-        "categoria": "Allen Bradley",
+        "descuento": "",
+        "categoria": "Visión Artificial",
+        "calificacion": 4.7,
+        "stock": 20
+    },
+    {
+        "id": 10,
+        "nombre": "Sistema SCADA",
+        "descripcion": "Software SCADA para supervisión y control de procesos industriales.",
+        "precio": 3000,
+        "imagenes": [
+            "https://example.com/scada1.jpg",
+            "https://example.com/scada2.jpg"
+        ],
+        "descuento": "5% OFF",
+        "categoria": "Software",
         "calificacion": 4.8,
         "stock": 15
     },
     {
-        "id": 10,
-        "nombre": "1756-L81",
-        "descripcion": "ControlLogix5581 Controlador Programable de Automatización.",
-        "precio": "$2,100.00",
-        "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1756L81_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1756L81_02.jpg"
-        ],
-        "descuento": "6% OFF",
-        "categoria": "Allen Bradley",
-        "calificacion": 4.9,
-        "stock": 20
-    },
-    {
         "id": 11,
-        "nombre": "1769-L32EWB",
-        "descripcion": "CompactLogix5380 Controlador Programable de Automatización.",
-        "precio": "$1,300.00",
+        "nombre": "Sensor de Temperatura",
+        "descripcion": "Sensor de temperatura para medición en ambientes industriales.",
+        "precio": 200,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1769L32EWB_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1769L32EWB_02.jpg"
+            "https://example.com/sensor_temp1.jpg",
+            "https://example.com/sensor_temp2.jpg"
         ],
-        "descuento": "8% OFF",
-        "categoria": "Allen Bradley",
-        "calificacion": 4.7,
-        "stock": 25
+        "descuento": "",
+        "categoria": "Sensores",
+        "calificacion": 4.4,
+        "stock": 50
     },
     {
         "id": 12,
-        "nombre": "1756-L64",
-        "descripcion": "ControlLogix5564 Controlador Programable de Automatización.",
-        "precio": "$1,700.00",
+        "nombre": "Relé de Estado Sólido",
+        "descripcion": "Relé de estado sólido para control de corriente.",
+        "precio": 300,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1756L64_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1756L64_02.jpg"
+            "https://example.com/rele1.jpg",
+            "https://example.com/rele2.jpg"
         ],
-        "descuento": "5% OFF",
-        "categoria": "Allen Bradley",
-        "calificacion": 4.8,
+        "descuento": "15% OFF",
+        "categoria": "Relés",
+        "calificacion": 4.6,
         "stock": 30
     },
     {
         "id": 13,
-        "nombre": "1769-L33ERM",
-        "descripcion": "CompactLogix5370 Controlador Programable de Automatización.",
-        "precio": "$1,200.00",
+        "nombre": "Módulo de Entrada/Salida",
+        "descripcion": "Módulo de E/S para expansión de PLC.",
+        "precio": 400,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1769L33ERM_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1769L33ERM_02.jpg"
+            "https://example.com/modulo_io1.jpg",
+            "https://example.com/modulo_io2.jpg"
         ],
-        "descuento": "9% OFF",
-        "categoria": "Allen Bradley",
-        "calificacion": 4.6,
-        "stock": 20
+        "descuento": "",
+        "categoria": "Módulos",
+        "calificacion": 4.5,
+        "stock": 40
     },
     {
         "id": 14,
-        "nombre": "1756-L73",
-        "descripcion": "ControlLogix5573 Controlador Programable de Automatización.",
-        "precio": "$2,000.00",
+        "nombre": "Fuente de Alimentación",
+        "descripcion": "Fuente de alimentación de 24V DC para sistemas industriales.",
+        "precio": 150,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1756L73_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1756L73_02.jpg"
+            "https://example.com/fuente1.jpg",
+            "https://example.com/fuente2.jpg"
         ],
-        "descuento": "7% OFF",
-        "categoria": "Allen Bradley",
-        "calificacion": 4.9,
-        "stock": 15
+        "descuento": "10% OFF",
+        "categoria": "Fuentes",
+        "calificacion": 4.7,
+        "stock": 60
     },
     {
         "id": 15,
-        "nombre": "1756-L82",
-        "descripcion": "ControlLogix5582 Controlador Programable de Automatización.",
-        "precio": "$2,200.00",
+        "nombre": "Cableado Industrial",
+        "descripcion": "Cableado para conexiones en entornos industriales.",
+        "precio": 50,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1756L82_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1756L82_02.jpg"
+            "https://example.com/cableado1.jpg",
+            "https://example.com/cableado2.jpg"
         ],
-        "descuento": "6% OFF",
-        "categoria": "Allen Bradley",
-        "calificacion": 4.8,
-        "stock": 20
+        "descuento": "",
+        "categoria": "Cableado",
+        "calificacion": 4.3,
+        "stock": 100
     },
     {
         "id": 16,
-        "nombre": "1769-L34EWB",
-        "descripcion": "CompactLogix5380 Controlador Programable de Automatización.",
-        "precio": "$1,400.00",
+        "nombre": "Conectores Industriales",
+        "descripcion": "Conectores para uso en maquinaria industrial.",
+        "precio": 80,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1769L34EWB_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1769L34EWB_02.jpg"
+            "https://example.com/conectores1.jpg",
+            "https://example.com/conectores2.jpg"
         ],
-        "descuento": "8% OFF",
-        "categoria": "Allen Bradley",
-        "calificacion": 4.7,
-        "stock": 25
+        "descuento": "5% OFF",
+        "categoria": "Conectores",
+        "calificacion": 4.6,
+        "stock": 70
     },
     {
         "id": 17,
-        "nombre": "1756-L65",
-        "descripcion": "ControlLogix5565 Controlador Programable de Automatización.",
-        "precio": "$1,800.00",
+        "nombre": "Sistema de Control de Movimiento",
+        "descripcion": "Sistema para control de movimiento en máquinas CNC.",
+        "precio": 2500,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1756L65_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1756L65_02.jpg"
+            "https://example.com/control_mov1.jpg",
+            "https://example.com/control_mov2.jpg"
         ],
-        "descuento": "5% OFF",
-        "categoria": "Allen Bradley",
+        "descuento": "",
+        "categoria": "Control de Movimiento",
         "calificacion": 4.8,
-        "stock": 30
+        "stock": 20
     },
     {
         "id": 18,
-        "nombre": "1769-L35ERM",
-        "descripcion": "CompactLogix5370 Controlador Programable de Automatización.",
-        "precio": "$1,300.00",
+        "nombre": "Sistema de Gestión de Energía",
+        "descripcion": "Sistema para optimizar el consumo de energía en plantas industriales.",
+        "precio": 3500,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1769L35ERM_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1769L35ERM_02.jpg"
+            "https://example.com/gestion_energia1.jpg",
+            "https://example.com/gestion_energia2.jpg"
         ],
-        "descuento": "9% OFF",
-        "categoria": "Allen Bradley",
-        "calificacion": 4.6,
-        "stock": 20
+        "descuento": "10% OFF",
+        "categoria": "Gestión de Energía",
+        "calificacion": 4.9,
+        "stock": 15
     },
     {
         "id": 19,
-        "nombre": "1756-L74",
-        "descripcion": "ControlLogix5574 Controlador Programable de Automatización.",
-        "precio": "$2,100.00",
+        "nombre": "Sistema de Visión Artificial",
+        "descripcion": "Sistema de visión artificial para inspección de calidad.",
+        "precio": 4000,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1756L74_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1756L74_02.jpg"
+            "https://example.com/vision_artificial1.jpg",
+            "https://example.com/vision_artificial2.jpg"
         ],
-        "descuento": "7% OFF",
-        "categoria": "Allen Bradley",
-        "calificacion": 4.9,
-        "stock": 15
+        "descuento": "",
+        "categoria": "Visión Artificial",
+        "calificacion": 4.7,
+        "stock": 10
     },
     {
         "id": 20,
-        "nombre": "1756-L83",
-        "descripcion": "ControlLogix5583 Controlador Programable de Automatización.",
-        "precio": "$2,300.00",
+        "nombre": "Sistema de Control de Procesos",
+        "descripcion": "Sistema para control y supervisión de procesos industriales.",
+        "precio": 5000,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1756L83_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1756L83_02.jpg"
+            "https://example.com/control_procesos1.jpg",
+            "https://example.com/control_procesos2.jpg"
         ],
-        "descuento": "6% OFF",
-        "categoria": "Allen Bradley",
+        "descuento": "5% OFF",
+        "categoria": "Control de Procesos",
         "calificacion": 4.8,
-        "stock": 20
+        "stock": 8
     },
     {
         "id": 21,
-        "nombre": "1769-L36EWB",
-        "descripcion": "CompactLogix5380 Controlador Programable de Automatización.",
-        "precio": "$1,500.00",
+        "nombre": "Sistema de Automatización Integrado",
+        "descripcion": "Sistema integrado para automatización de líneas de producción.",
+        "precio": 6000,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1769L36EWB_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1769L36EWB_02.jpg"
+            "https://example.com/automatizacion_integrada1.jpg",
+            "https://example.com/automatizacion_integrada2.jpg"
         ],
-        "descuento": "8% OFF",
-        "categoria": "Allen Bradley",
-        "calificacion": 4.7,
-        "stock": 25
+        "descuento": "",
+        "categoria": "Automatización Integrada",
+        "calificacion": 4.9,
+        "stock": 5
     },
     {
         "id": 22,
-        "nombre": "1756-L66",
-        "descripcion": "ControlLogix5566 Controlador Programable de Automatización.",
-        "precio": "$1,900.00",
+        "nombre": "Sistema de Automatización Flexible",
+        "descripcion": "Sistema flexible para adaptarse a diferentes procesos de producción.",
+        "precio": 5500,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1756L66_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1756L66_02.jpg"
+            "https://example.com/automatizacion_flexible1.jpg",
+            "https://example.com/automatizacion_flexible2.jpg"
         ],
-        "descuento": "5% OFF",
-        "categoria": "Allen Bradley",
+        "descuento": "10% OFF",
+        "categoria": "Automatización Flexible",
         "calificacion": 4.8,
-        "stock": 30
+        "stock": 12
     },
     {
         "id": 23,
-        "nombre": "1769-L37ERM",
-        "descripcion": "CompactLogix5370 Controlador Programable de Automatización.",
-        "precio": "$1,400.00",
+        "nombre": "Sistema de Automatización Fija",
+        "descripcion": "Sistema fijo para automatización de tareas específicas.",
+        "precio": 4500,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1769L37ERM_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1769L37ERM_02.jpg"
+            "https://example.com/automatizacion_fija1.jpg",
+            "https://example.com/automatizacion_fija2.jpg"
         ],
-        "descuento": "9% OFF",
-        "categoria": "Allen Bradley",
-        "calificacion": 4.6,
-        "stock": 20
+        "descuento": "",
+        "categoria": "Automatización Fija",
+        "calificacion": 4.7,
+        "stock": 18
     },
     {
         "id": 24,
-        "nombre": "1756-L75",
-        "descripcion": "ControlLogix5575 Controlador Programable de Automatización.",
-        "precio": "$2,200.00",
+        "nombre": "Sistema de Automatización Programable",
+        "descripcion": "Sistema programable para automatización de procesos complejos.",
+        "precio": 7000,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1756L75_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1756L75_02.jpg"
+            "https://example.com/automatizacion_programable1.jpg",
+            "https://example.com/automatizacion_programable2.jpg"
         ],
-        "descuento": "7% OFF",
-        "categoria": "Allen Bradley",
+        "descuento": "5% OFF",
+        "categoria": "Automatización Programable",
         "calificacion": 4.9,
-        "stock": 15
+        "stock": 10
     },
     {
         "id": 25,
-        "nombre": "1756-L84",
-        "descripcion": "ControlLogix5584 Controlador Programable de Automatización.",
-        "precio": "$2,400.00",
+        "nombre": "Sistema de Automatización Inteligente",
+        "descripcion": "Sistema inteligente para optimización de procesos industriales.",
+        "precio": 8000,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1756L84_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1756L84_02.jpg"
+            "https://example.com/automatizacion_inteligente1.jpg",
+            "https://example.com/automatizacion_inteligente2.jpg"
         ],
-        "descuento": "6% OFF",
-        "categoria": "Allen Bradley",
-        "calificacion": 4.8,
-        "stock": 20
+        "descuento": "",
+        "categoria": "Automatización Inteligente",
+        "calificacion": 5,
+        "stock": 7
     },
     {
         "id": 26,
-        "nombre": "1769-L38EWB",
-        "descripcion": "CompactLogix5380 Controlador Programable de Automatización.",
-        "precio": "$1,600.00",
+        "nombre": "Sistema de Automatización Predictiva",
+        "descripcion": "Sistema predictivo para mantenimiento y optimización de procesos.",
+        "precio": 7500,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1769L38EWB_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1769L38EWB_02.jpg"
+            "https://example.com/automatizacion_predictiva1.jpg",
+            "https://example.com/automatizacion_predictiva2.jpg"
         ],
-        "descuento": "8% OFF",
-        "categoria": "Allen Bradley",
-        "calificacion": 4.7,
-        "stock": 25
+        "descuento": "10% OFF",
+        "categoria": "Automatización Predictiva",
+        "calificacion": 4.8,
+        "stock": 9
     },
     {
         "id": 27,
-        "nombre": "1756-L67",
-        "descripcion": "ControlLogix5567 Controlador Programable de Automatización.",
-        "precio": "$2,000.00",
+        "nombre": "Sistema de Automatización Colaborativa",
+        "descripcion": "Sistema colaborativo para trabajar junto a operarios humanos.",
+        "precio": 6500,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1756L67_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1756L67_02.jpg"
+            "https://example.com/automatizacion_colaborativa1.jpg",
+            "https://example.com/automatizacion_colaborativa2.jpg"
         ],
-        "descuento": "5% OFF",
-        "categoria": "Allen Bradley",
-        "calificacion": 4.8,
-        "stock": 30
+        "descuento": "",
+        "categoria": "Automatización Colaborativa",
+        "calificacion": 4.9,
+        "stock": 11
     },
     {
         "id": 28,
-        "nombre": "1769-L39ERM",
-        "descripcion": "CompactLogix5370 Controlador Programable de Automatización.",
-        "precio": "$1,500.00",
+        "nombre": "Sistema de Automatización de Procesos",
+        "descripcion": "Sistema para automatización de procesos industriales.",
+        "precio": 5000,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1769L39ERM_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1769L39ERM_02.jpg"
+            "https://example.com/automatizacion_procesos1.jpg",
+            "https://example.com/automatizacion_procesos2.jpg"
         ],
-        "descuento": "9% OFF",
-        "categoria": "Allen Bradley",
-        "calificacion": 4.6,
-        "stock": 20
+        "descuento": "5% OFF",
+        "categoria": "Automatización de Procesos",
+        "calificacion": 4.8,
+        "stock": 15
     },
     {
         "id": 29,
-        "nombre": "1756-L76",
-        "descripcion": "ControlLogix5576 Controlador Programable de Automatización.",
-        "precio": "$2,300.00",
+        "nombre": "Sistema de Automatización de Producción",
+        "descripcion": "Sistema para automatización de líneas de producción.",
+        "precio": 6000,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1756L76_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1756L76_02.jpg"
+            "https://example.com/automatizacion_produccion1.jpg",
+            "https://example.com/automatizacion_produccion2.jpg"
         ],
-        "descuento": "7% OFF",
-        "categoria": "Allen Bradley",
+        "descuento": "",
+        "categoria": "Automatización de Producción",
+        "calificacion": 4.9,
+        "stock": 10
+    },
+    {
+        "id": 30,
+        "nombre": "Sistema de Automatización de Manufactura",
+        "descripcion": "Sistema para automatización de procesos de manufactura.",
+        "precio": 7000,
+        "imagenes": [
+            "https://example.com/automatizacion_manufactura1.jpg",
+            "https://example.com/automatizacion_manufactura2.jpg"
+        ],
+        "descuento": "10% OFF",
+        "categoria": "Automatización de Manufactura",
+        "calificacion": 4.8,
+        "stock": 8
+    },
+    {
+        "id": 31,
+        "nombre": "Sistema de Automatización de Ensamblaje",
+        "descripcion": "Sistema para automatización de procesos de ensamblaje.",
+        "precio": 5500,
+        "imagenes": [
+            "https://example.com/automatizacion_ensamblaje1.jpg",
+            "https://example.com/automatizacion_ensamblaje2.jpg"
+        ],
+        "descuento": "",
+        "categoria": "Automatización de Ensamblaje",
+        "calificacion": 4.7,
+        "stock": 12
+    },
+    {
+        "id": 32,
+        "nombre": "Sistema de Automatización de Logística",
+        "descripcion": "Sistema para automatización de procesos logísticos.",
+        "precio": 6500,
+        "imagenes": [
+            "https://example.com/automatizacion_logistica1.jpg",
+            "https://example.com/automatizacion_logistica2.jpg"
+        ],
+        "descuento": "5% OFF",
+        "categoria": "Automatización de Logística",
+        "calificacion": 4.8,
+        "stock": 10
+    },
+    {
+        "id": 33,
+        "nombre": "Sistema de Automatización de Almacenamiento",
+        "descripcion": "Sistema para automatización de procesos de almacenamiento.",
+        "precio": 5000,
+        "imagenes": [
+            "https://example.com/automatizacion_almacenamiento1.jpg",
+            "https://example.com/automatizacion_almacenamiento2.jpg"
+        ],
+        "descuento": "",
+        "categoria": "Automatización de Almacenamiento",
         "calificacion": 4.9,
         "stock": 15
     },
     {
-        "id": 30,
-        "nombre": "1756-L85",
-        "descripcion": "ControlLogix5585 Controlador Programable de Automatización.",
-        "precio": "$2,500.00",
+        "id": 34,
+        "nombre": "Sistema de Automatización de Distribución",
+        "descripcion": "Sistema para automatización de procesos de distribución.",
+        "precio": 6000,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1756L85_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1756L85_02.jpg"
+            "https://example.com/automatizacion_distribucion1.jpg",
+            "https://example.com/automatizacion_distribucion2.jpg"
         ],
-        "descuento": "6% OFF",
-        "categoria": "Allen Bradley",
+        "descuento": "10% OFF",
+        "categoria": "Automatización de Distribución",
         "calificacion": 4.8,
-        "stock": 20
+        "stock": 10
     },
     {
-        "id": 31,
-        "nombre": "1769-L40EWB",
-        "descripcion": "CompactLogix5380 Controlador Programable de Automatización.",
-        "precio": "$1,700.00",
+        "id": 35,
+        "nombre": "Sistema de Automatización de Transporte",
+        "descripcion": "Sistema para automatización de procesos de transporte.",
+        "precio": 7000,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1769L40EWB_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1769L40EWB_02.jpg"
+            "https://example.com/automatizacion_transporte1.jpg",
+            "https://example.com/automatizacion_transporte2.jpg"
         ],
-        "descuento": "8% OFF",
-        "categoria": "Allen Bradley",
-        "calificacion": 4.7,
-        "stock": 25
+        "descuento": "",
+        "categoria": "Automatización de Transporte",
+        "calificacion": 4.9,
+        "stock": 8
     },
     {
-        "id": 32,
-        "nombre": "1756-L68",
-        "descripcion": "ControlLogix5568 Controlador Programable de Automatización.",
-        "precio": "$2,100.00",
+        "id": 36,
+        "nombre": "Sistema de Automatización de Control de Calidad",
+        "descripcion": "Sistema para automatización de procesos de control de calidad.",
+        "precio": 5500,
         "imagenes": [
-            "https://rlsolutions.com.mx/Admin/img/1756L68_01.jpg",
-            "https://rlsolutions.com.mx/Admin/img/1756L68_02.jpg"
+            "https://example.com/automatizacion_calidad1.jpg",
+            "https://example.com/automatizacion_calidad2.jpg"
         ],
         "descuento": "5% OFF",
-        "categoria": "Allen Bradley",
+        "categoria": "Automatización de Control de Calidad",
         "calificacion": 4.8,
-        "stock": 30
+        "stock": 12
+    },
+    {
+        "id": 37,
+        "nombre": "Sistema de Automatización de Mantenimiento",
+        "descripcion": "Sistema para automatización de procesos de mantenimiento.",
+        "precio": 6500,
+        "imagenes": [
+            "https://example.com/automatizacion_mantenimiento1.jpg",
+            "https://example.com/automatizacion_mantenimiento2.jpg"
+        ],
+        "descuento": "",
+        "categoria": "Automatización de Mantenimiento",
+        "calificacion": 4.9,
+        "stock": 10
+    },
+    {
+        "id": 38,
+        "nombre": "Sistema de Automatización de Seguridad",
+        "descripcion": "Sistema para automatización de procesos de seguridad.",
+        "precio": 5000,
+        "imagenes": [
+            "https://example.com/automatizacion_seguridad1.jpg",
+            "https://example.com/automatizacion_seguridad2.jpg"
+        ],
+        "descuento": "10% OFF",
+        "categoria": "Automatización de Seguridad",
+        "calificacion": 4.8,
+        "stock": 15
+    },
+    {
+        "id": 39,
+        "nombre": "Sistema de Automatización de Eficiencia Energética",
+        "descripcion": "Sistema para automatización de procesos de eficiencia energética.",
+        "precio": 6000,
+        "imagenes": [
+            "https://example.com/automatizacion_energia1.jpg",
+            "https://example.com/automatizacion_energia2.jpg"
+        ],
+        "descuento": "",
+        "categoria": "Automatización de Eficiencia Energética",
+        "calificacion": 4.9,
+        "stock": 10
+    },
+    {
+        "id": 40,
+        "nombre": "Sistema de Automatización de Gestión de Inventarios",
+        "descripcion": "Sistema para automatización de gestión de inventarios.",
+        "precio": 7000,
+        "imagenes": [
+            "https://example.com/automatizacion_inventarios1.jpg",
+            "https://example.com/automatizacion_inventarios2.jpg"
+        ],
+        "descuento": "5% OFF",
+        "categoria": "Automatización de Gestión de Inventarios",
+        "calificacion": 4.8,
+        "stock": 8
+    },
+    {
+        "id": 41,
+        "nombre": "Sistema de Automatización de Gestión de Producción",
+        "descripcion": "Sistema para automatización de gestión de producción.",
+        "precio": 5500,
+        "imagenes": [
+            "https://example.com/automatizacion_gestion_produccion1.jpg",
+            "https://example.com/automatizacion_gestion_produccion2.jpg"
+        ],
+        "descuento": "",
+        "categoria": "Automatización de Gestión de Producción",
+        "calificacion": 4.7,
+        "stock": 12
+    },
+    {
+        "id": 42,
+        "nombre": "Sistema de Automatización de Gestión de Calidad",
+        "descripcion": "Sistema para automatización de gestión de calidad.",
+        "precio": 6500,
+        "imagenes": [
+            "https://example.com/automatizacion_gestion_calidad1.jpg",
+            "https://example.com/automatizacion_gestion_calidad2.jpg"
+        ],
+        "descuento": "10% OFF",
+        "categoria": "Automatización de Gestión de Calidad",
+        "calificacion": 4.8,
+        "stock": 10
+    },
+    {
+        "id": 43,
+        "nombre": "Sistema de Automatización de Gestión de Mantenimiento",
+        "descripcion": "Sistema para automatización de gestión de mantenimiento.",
+        "precio": 5000,
+        "imagenes": [
+            "https://example.com/automatizacion_gestion_mantenimiento1.jpg",
+            "https://example.com/automatizacion_gestion_mantenimiento2.jpg"
+        ],
+        "descuento": "",
+        "categoria": "Automatización de Gestión de Mantenimiento",
+        "calificacion": 4.9,
+        "stock": 15
+    },
+    {
+        "id": 44,
+        "nombre": "Sistema de Automatización de Gestión de Seguridad",
+        "descripcion": "Sistema para automatización de gestión de seguridad.",
+        "precio": 6000,
+        "imagenes": [
+            "https://example.com/automatizacion_gestion_seguridad1.jpg",
+            "https://example.com/automatizacion_gestion_seguridad2.jpg"
+        ],
+        "descuento": "5% OFF",
+        "categoria": "Automatización de Gestión de Seguridad",
+        "calificacion": 4.8,
+        "stock": 10
+    },
+    {
+        "id": 45,
+        "nombre": "Sistema de Automatización de Gestión de Eficiencia Energética",
+        "descripcion": "Sistema para automatización de gestión de eficiencia energética.",
+        "precio": 7000,
+        "imagenes": [
+            "https://example.com/automatizacion_gestion_energia1.jpg",
+            "https://example.com/automatizacion_gestion_energia2.jpg"
+        ],
+        "descuento": "",
+        "categoria": "Automatización de Gestión de Eficiencia Energética",
+        "calificacion": 4.9,
+        "stock": 8
+    },
+    {
+        "id": 46,
+        "nombre": "Sistema de Automatización de Gestión de Inventarios",
+        "descripcion": "Sistema para automatización de gestión de inventarios.",
+        "precio": 5500,
+        "imagenes": [
+            "https://example.com/automatizacion_gestion_inventarios1.jpg",
+            "https://example.com/automatizacion_gestion_inventarios2.jpg"
+        ],
+        "descuento": "10% OFF",
+        "categoria": "Automatización de Gestión de Inventarios",
+        "calificacion": 4.7,
+        "stock": 12
+    },
+    {
+        "id": 47,
+        "nombre": "Sistema de Automatización de Gestión de Producción",
+        "descripcion": "Sistema para automatización de gestión de producción.",
+        "precio": 6500,
+        "imagenes": [
+            "https://example.com/automatizacion_gestion_produccion1.jpg",
+            "https://example.com/automatizacion_gestion_produccion2.jpg"
+        ],
+        "descuento": "",
+        "categoria": "Automatización de Gestión de Producción",
+        "calificacion": 4.8,
+        "stock": 10
+    },
+    {
+        "id": 48,
+        "nombre": "Sistema de Automatización de Gestión de Calidad",
+        "descripcion": "Sistema para automatización de gestión de calidad.",
+        "precio": 5000,
+        "imagenes": [
+            "https://example.com/automatizacion_gestion_calidad1.jpg",
+            "https://example.com/automatizacion_gestion_calidad2.jpg"
+        ],
+        "descuento": "5% OFF",
+        "categoria": "Automatización de Gestión de Calidad",
+        "calificacion": 4.9,
+        "stock": 15
+    },
+    {
+        "id": 49,
+        "nombre": "Sistema de Automatización de Gestión de Mantenimiento",
+        "descripcion": "Sistema para automatización de gestión de mantenimiento.",
+        "precio": 6000,
+        "imagenes": [
+            "https://example.com/automatizacion_gestion_mantenimiento1.jpg",
+            "https://example.com/automatizacion_gestion_mantenimiento2.jpg"
+        ],
+        "descuento": "",
+        "categoria": "Automatización de Gestión de Mantenimiento",
+        "calificacion": 4.8,
+        "stock": 10
+    },
+    {
+        "id": 50,
+        "nombre": "Sistema de Automatización de Gestión de Seguridad",
+        "descripcion": "Sistema para automatización de gestión de seguridad.",
+        "precio": 7000,
+        "imagenes": [
+            "https://example.com/automatizacion_gestion_seguridad1.jpg",
+            "https://example.com/automatizacion_gestion_seguridad2.jpg"
+        ],
+        "descuento": "10% OFF",
+        "categoria": "Automatización de Gestión de Seguridad",
+        "calificacion": 4.9,
+        "stock": 8
     }
 ]

@@ -37,7 +37,7 @@ const AppContent = () => {
           <Route path="/brands" element={<Brands />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/orders" element={<Orders />} />
-          <Route path="/setting" element={<Setting />} />
+          <Route path="/settings" element={<Setting />} />
           <Route path="/remove" element={<BackgroundRemover />} />
 
           {/* Rutas de autenticación */}
