@@ -15,6 +15,7 @@ import Loader from './components/Load'; // Importar el Loader
 import Footer from './components/Footer';
 import Product from './views/Product';
 import BackgroundRemover from './views/Remove';
+import MiPerfil from './views/User/MiPerfil';
 
 const AppContent = () => {
   const location = useLocation();
@@ -39,6 +40,7 @@ const AppContent = () => {
           <Route path="/orders" element={<Orders />} />
           <Route path="/settings" element={<Setting />} />
           <Route path="/remove" element={<BackgroundRemover />} />
+          <Route path="/profile" element={<MiPerfil />} />
 
           {/* Rutas de autenticación */}
           <Route path="/login" element={<Login />} />
